@@ -57,6 +57,6 @@ public class Dolgozo {
 
     @Override
     public String toString() {
-        return String.format("%4d. %30s (%3d) %6s %9d", this.id, this.nev, this.kor, this.nem, this.fizetes );
+        return String.format("%4d. %30s (%3d ) %6s %9d", this.id, this.nev, this.kor, this.nem, this.fizetes );
     }
 }
